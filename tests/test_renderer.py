@@ -2,7 +2,7 @@ import unittest
 import pytest
 
 # from .context import pylambda
-from pylambda import renderer as r
+from pylambda import Renderer
 
 # Here's our "unit".
 def IsOdd(n):
@@ -18,7 +18,7 @@ class IsOddTests(unittest.TestCase):
         self.failIf(IsOdd(2))
 
     def testBlar(self):
-        a = r.Renderer()
+        a = Renderer()
         print(a.foo)
 
 def main():

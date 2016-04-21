@@ -1,7 +1,7 @@
-from pylambda import renderer as r
+from pylambda import Renderer
 
 def my_handler(event, context):
-  a = r.Renderer()
+  a = Renderer()
   print a.foo
 
 if __name__ == '__main__':
