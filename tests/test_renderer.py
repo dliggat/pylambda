@@ -19,7 +19,7 @@ class IsOddTests(unittest.TestCase):
 
     def testBlar(self):
         a = Renderer()
-        print(a.foo)
+        print(a.render())
 
 def main():
     unittest.main()
