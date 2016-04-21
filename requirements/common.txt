@@ -1,4 +1,2 @@
 Jinja2==2.8
 pyaml==15.8.2
-boto3==1.2.6
-nose
