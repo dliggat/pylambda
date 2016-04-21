@@ -1,4 +1,4 @@
-from lib import renderer as r
+from pylambda import renderer as r
 
 def my_handler(event, context):
     a = r.Renderer()

@@ -1,7 +1,8 @@
-import jinja2
+from jinja2 import Template
 
 class Renderer(object):
 
   def __init__(self):
-    self.foo = 'hello there'
+    template = Template('Hello {{ name }}!')
+    self.foo = template.render(name='John Doe')
 
