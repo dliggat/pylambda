@@ -10,7 +10,7 @@ init:
 	$(PIP) requirements/dev.txt
 
 test:
-	nosetests -s tests
+	py.test -rsxX -q -s tests
 
 clean:
 	rm -rf $(STAGING_DIR)
